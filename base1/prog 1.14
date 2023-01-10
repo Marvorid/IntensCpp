@@ -1,0 +1,12 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    float y, a;
+    cin >> a;
+    y = (a*a+1)/sqrt(a*a+1);
+    cout << y << endl;
+
+    return 0;
+}
