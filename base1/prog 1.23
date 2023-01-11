@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float m, V, p;
+    cin >> m >> V;
+    p = m / V ; 
+    cout << "Плотность материала = " << p << endl;
+    return 0;
+}
