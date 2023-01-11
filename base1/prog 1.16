@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x, P;
+    cin >> x;
+    P = 4*x;
+    cout << P << endl;
+    return 0;
+}
