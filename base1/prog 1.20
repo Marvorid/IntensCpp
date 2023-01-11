@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int r;
+    float pi = 3.14, C, S;
+    cin >> r;
+    C = 2*pi*r;
+    cout << "Длина окружности = " << C << endl;
+    S = pi*r*r;
+    cout << "Площадь окружности = " << S << endl;
+    return 0;
+}
