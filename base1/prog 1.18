@@ -1,0 +1,13 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    int R, d;
+    float S;   //расстояние
+    R = 6350;
+    cin >> d;
+    S = sqrt((R+d)*(R+d)-R*R);
+    cout << S << endl;
+    return 0;
+}
