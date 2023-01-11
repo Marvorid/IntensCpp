@@ -1,0 +1,15 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    int x, y;
+    float a, g;
+    cin >> x;
+    cin >> y;
+    a =(x + y)/2 ; 
+    cout << "Cреднее арифметическое = " << a << endl;
+    g = sqrt(x*y); 
+    cout << "Cреднее геометрическое = " << g << endl;
+    return 0;
+}
