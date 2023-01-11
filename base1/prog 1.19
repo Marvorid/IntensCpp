@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a, V, S;
+    cin >> a;
+    V = a*a*a;
+    cout << "Объем куба = " << V << endl;
+    S = 4*a*a;
+    cout << "Площадь боковой поверхности = " << S << endl;
+    return 0;
+}
