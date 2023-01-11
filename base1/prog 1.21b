@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float x, a, b;
+    cin >> a;
+    cin >> b;
+    x = 3.56*(a+b)*(a+b)*(a+b) - 5.8*b*b + 3.8*a - 1.5;
+    cout << x << endl;
+    return 0;
+}
