@@ -1,0 +1,13 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    double a, b, c, P;
+    cin >> a >> b;
+    c = sqrt(a*a + b*b);
+    P = a + b + c;
+    cout << "гипотенуза = " << c << endl;
+    cout << "Периметр = " << P << endl;
+    return 0;
+}
