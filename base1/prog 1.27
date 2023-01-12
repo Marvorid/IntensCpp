@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float pi = 3.14, R, r, S;
+    cin >> R;           // радиус внешней окружности
+    cin >> r;           // радиус внутренней окружности
+    S = pi*(R*R - r*r);
+    cout << S << endl;
+    return 0;
+}
