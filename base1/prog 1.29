@@ -1,0 +1,13 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    double a, c, h, P;
+    cin >> a;      //меньшее основание
+    cin >> c;      //большее основание
+    cin >> h;
+    P = a + c + sqrt((c- a)*(c - a) / 4 + h*h);
+    cout << "Периметр = " << P << endl;
+    return 0;
+}
