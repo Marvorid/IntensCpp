@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float a, b, sum, raz, pro, cha;
+    cin >> a;     
+    cin >> b;     
+    sum = a + b;
+    raz = a - b;
+    pro = a * b;
+    cha = a / b;
+    cout << "Сумма = " << sum << endl;
+    cout << "Разность = " << raz << endl;
+    cout << "Произведение = " << pro << endl;
+    cout << "Частное = " << cha << endl;
+    return 0;
+}
