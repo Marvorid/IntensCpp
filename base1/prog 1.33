@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+    float a, d, b, P;
+    cin >> a;     
+    cin >> b;      
+    P = 2*(a + b);
+    d = sqrt(a*a + b*b);
+    cout << "Периметр = " << P << endl;
+    cout << "Диагональ = " << d << endl;
+    return 0;
+}
