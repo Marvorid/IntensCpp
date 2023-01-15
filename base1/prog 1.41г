@@ -3,7 +3,7 @@ using namespace std;
  
 int main ()
 {
-    int a, b, c, d;
+    float a, b, c, d;
     cin >> a;
     b = a * a; //2-я степень
     c = b * b; //4-я
