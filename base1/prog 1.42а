@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+ 
+int main ()
+{
+    float a, b, c, d, e;
+    cin >> a;
+    b = a * a; //2-я степень
+    c = b * a; //3-я
+    d = c * c; //9
+    e = d * a; //10
+    cout << "a в 3-ей степени = " << c << endl;
+    cout << "a в 10-ой степени = " << e;
+    return 0;
+}
