@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+ 
+int main ()
+{
+    float a, b, c, d, e, f, g;
+    cin >> a;
+    b = a * a; //2-я степень
+    c = b * b; //4-я
+    d = c * c; //8
+    e = d * d; //16
+    f = e * e; //32
+    g = f * f;
+    cout << "a в 64-ой степени = " << g;
+    return 0;
+}
