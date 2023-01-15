@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+ 
+int main ()
+{
+    int a, b, c, d, e, f;
+    cin >> a;
+    b = a * a; //2-я степень
+    c = b * a; //3-я
+    d = c * c; //6
+    e = d * d; //12
+    f = e * c;
+    cout << "a в 15-ой степени = " << f;
+    return 0;
+}
