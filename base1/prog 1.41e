@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+ 
+int main ()
+{
+    int a, b, c, d, e;
+    cin >> a;
+    b = a * a; //2-я степень
+    c = b * b; //4-я
+    d = c * c; //8
+    e = d * b;
+    cout << "a в 10-ой степени = " << e;
+    return 0;
+}
