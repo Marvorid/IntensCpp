@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+ 
+int main ()
+{
+    float a, b, c, h;
+    cout << "Введите длину меньшего основания трапеции: ";
+    cin >> a;
+    cout << "Введите длину большего основания трапеции: ";
+    cin >> b;
+    cout << "Введите угол при большем основании: ";
+    cin >> c;
+    h = (b - a) / 2 * tan(c);
+    cout << "Площадь трапеции равна " << ((a + b) / 2) * h << endl;
+ 
+    return 0;
+}
