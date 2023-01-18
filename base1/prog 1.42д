@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+ 
+int main ()
+{
+    float a, b, c, d, e, f, g;
+    cin >> a;
+    b = a * a; //2-я степень
+    c = b * b; //4-я
+    d = c * a; //5
+    e = d * d; //10
+    f = e * d; //15
+    g = f * b; //17
+    cout << "a в 2-ой степени = " << b << endl;
+    cout << "a в 5-ой степени = " << d << endl;
+    cout << "a в 17-ой степени = " << g << endl;
+    return 0;
+}
